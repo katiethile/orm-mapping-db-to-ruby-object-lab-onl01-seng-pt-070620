@@ -97,7 +97,7 @@ end
       SELECT * 
       FROM students 
       WHERE grade = 10
-      ORDER BY id 
+      ORDER BY students.id 
       LIMIT 2
     SQL
     
